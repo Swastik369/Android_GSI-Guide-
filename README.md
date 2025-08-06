@@ -69,6 +69,7 @@ adb reboot bootloader
 ### 3.b Wipe for Clean Install (Recommended)
 
 fastboot erase system
+
 fastboot erase userdata
 
 
