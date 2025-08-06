@@ -1,19 +1,19 @@
-# 🚀 GSI Noob Guide: Installing GSI & Checking Treble Support (Without UBL)
+# 🚀 GSI Noob Guide: Installing GSI & Checking Treble Support 
 
 > **For: Android Enthusiasts Who Want to Install a GSI**  
 > _This guide assumes your device bootloader is already unlocked, you have a PC, USB cable, and basic knowledge of ADB & Fastboot._
 
 ---
 
-## 1. 🟡 Check Treble & GSI Support
+## 1. Check Treble & GSI Support
 
-### 1.1 Using Treble Info App  
+### 1.a Using Treble Info App  
 - Download **Treble Info** app from Play Store.  
 - Open it and confirm:  
   - **Is your device Treble compatible?** → Should say _Yes_.  
   - **Partition type:** → Should be _A/B_ or _A-only_.
 
-### 1.2 Manual Method  
+### 1.b Manual Method  
 Connect your device and run:
 
 adb shell getprop ro.treble.enabled
@@ -32,18 +32,18 @@ adb shell getprop ro.treble.enabled
 
 ## 3. 🧹 Prepare & Flash the GSI
 
-### 3.1 Boot to Fastboot Mode
+### 3.a Boot to Fastboot Mode
 
 adb reboot bootloader
 
 
-### 3.2 Wipe for Clean Install (Recommended)
+### 3.b Wipe for Clean Install (Recommended)
 
 fastboot erase system
 fastboot erase userdata
 
 
-### 3.3 Flash the GSI Image
+### 3.c Flash the GSI Image
 
 - If your GSI is zipped, unzip it first to get the `.img` file.  
 - Flash the system image:
@@ -57,7 +57,7 @@ text
 fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img
 
 
-### 3.4 Reboot Device
+### 3.d Reboot Device
 
 fastboot reboot
 
