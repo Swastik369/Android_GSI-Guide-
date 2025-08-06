@@ -23,14 +23,14 @@ adb shell getprop ro.treble.enabled
 
 ---
 
-## 2. 📥 Download a Suitable GSI
+## 2. Download a Suitable GSI
 
 - Download a GSI image of your choice (e.g., Phh-Treble, LineageOS GSI).  
 - Match the GSI architecture (`arm`, `arm64`, `aonly`, `ab`) with your device’s partition type.
 
 ---
 
-## 3. 🧹 Prepare & Flash the GSI
+## 3.  Prepare & Flash the GSI
 
 ### 3.a Boot to Fastboot Mode
 
@@ -63,22 +63,12 @@ fastboot reboot
 
 --
 
-## 4. ✅ First Boot & Troubleshooting
+## 4.  First Boot & Troubleshooting
 
 - The first boot after flashing a GSI can take several minutes — be patient!  
 - If you encounter bootloops:  
   - Verify you are flashing the correct GSI for your device’s architecture and slot configuration.  
   - Consider reflashing your stock ROM and trying again.
-
---
-
-## 5. ❓ Common Questions
-
-> - **Is GSI safe?**  
->   GSIs are experimental and not guaranteed stable; flash at your own risk.  
->  
-> - **How to return to stock ROM?**  
->   Use your manufacturer’s official tools to flash stock firmware.
 
 ---
 
