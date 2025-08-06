@@ -108,4 +108,9 @@ fastboot reboot
 
 - Treble Info app  
 - [Phh’s GSI Wiki](https://github.com/phhusson/treble_experimentations/wiki)  
-- XDA Developers Treble Forums  
+- XDA Developers Treble Forums
+
+
+### If you want to test gsi before directly flashing and without risking userdata you may see this 
+ Guide https://github.com/Swastik369/How_to_use_DSU_sideloader
+  
