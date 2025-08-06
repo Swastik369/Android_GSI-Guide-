@@ -31,7 +31,7 @@ adb shell getprop ro.treble.enabled
 ---
 ## 2.a Gsi Naming 
 
-"{arm|a64|arm64}_{a|b}{v|g}{N|S}-{vndklite|secure|personal}
+```{arm|a64|arm64}_{a|b}{v|g}{N|S}-{vndklite|secure|personal}
 |               |    |    |     |
 |               |    |    |     vndklite: For VNDKLite devices,
 |               |    |    |               or for read-writeable /system on regular devices
@@ -53,7 +53,7 @@ adb shell getprop ro.treble.enabled
 |
 arm: ARM 32-bit (deprecated since Android 12)
 a64: ARM 32-bit with 64-bit binder
-arm64: ARM 64-bit"
+arm64: ARM 64-bit```
 
 
 
