@@ -77,5 +77,3 @@ fastboot reboot
 - Treble Info app  
 - [Phh’s GSI Wiki](https://github.com/phhusson/treble_experimentations/wiki)  
 - XDA Developers Treble Forums  
-
-> _Feel free to contribute improvements or open issues if you find bugs!_
