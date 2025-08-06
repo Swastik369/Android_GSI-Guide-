@@ -83,7 +83,6 @@ fastboot erase userdata
   fastboot flash system <gsi-image-name>.img
 
 
-
 - For A/B devices, flash vbmeta with verity and verification disabled (if required):
 
 fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img 
