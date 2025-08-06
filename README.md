@@ -54,7 +54,7 @@ text
 
 - For A/B devices, flash vbmeta with verity and verification disabled (if required):
 
-fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img
+fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img   #crucial#
 
 
 ### 3.d Reboot Device
