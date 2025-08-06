@@ -55,7 +55,7 @@ adb shell getprop ro.treble.enabled
 arm: ARM 32-bit (deprecated since Android 12)
 a64: ARM 32-bit with 64-bit binder
 arm64: ARM 64-bit
-
+```
 
 
 
