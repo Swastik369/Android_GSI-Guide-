@@ -67,19 +67,20 @@ adb reboot bootloader
 
 
 ### 3.b Wipe for Clean Install (Recommended)
-
+```
 fastboot erase system
-
+```
 fastboot erase userdata
-
+```
 
 ### 3.c Flash the GSI Image
 
 - If your GSI is zipped, unzip it first to get the `.img` file.  
 - Flash the system image:
 
-fastboot flash system <gsi-image-name>.img
-
+  ```
+  fastboot flash system <gsi-image-name>.img
+ ```
 
 
 - For A/B devices, flash vbmeta with verity and verification disabled (if required):
@@ -88,9 +89,9 @@ fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img
 
 
 ### 3.d Reboot Device
-
+```
 fastboot reboot
-
+```
 --
 
 ## 4.  First Boot & Troubleshooting
