@@ -104,7 +104,7 @@ fastboot reboot
 
 ---
 
-## 📚 Resources & Credit
+##  Resources & Credit
 
 - Treble Info app  
 - [Phh’s GSI Wiki](https://github.com/phhusson/treble_experimentations/wiki)  
