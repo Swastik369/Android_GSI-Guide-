@@ -1,4 +1,4 @@
-# 🚀 GSI Noob Guide: Installing GSI & Checking Treble Support 
+# GSI Noob Guide: Installing GSI & Checking Treble Support 
 
 > **For: Android Enthusiasts Who Want to Install a GSI**  
 > _This guide assumes your device bootloader is already unlocked, you have a PC, USB cable, and basic knowledge of ADB & Fastboot._
